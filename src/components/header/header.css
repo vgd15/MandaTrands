@@ -1,0 +1,30 @@
+.header-global {
+    max-width: 100%;
+    height: 25vh;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 10px;
+  }
+  
+  .header {
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    overflow: hidden; /* faz a imagem não aumentar a altura se o width for aumentado */
+    position: relative;
+  }
+  
+  .img-header-1 {
+    flex: 1; /* Ocupa todo o espaço disponível no contêiner .header */
+  }
+  
+  .img-header-logo {
+    width: 15%;
+    height: 10vh;
+    position: absolute;
+    top: 30%; /* Ajuste a posição vertical da logo */
+    left: 5%; /* Ajuste a posição horizontal da logo */
+  }
+  
