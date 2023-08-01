@@ -1,11 +1,11 @@
 .header-global {
   max-width: 100%;
   height: 25vh;
-  display: flex; 
-  flex-direction: row; 
-  justify-content: center; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding: 1%; 
+  padding: 1%;
   margin: 1% 6%;
 }
 
@@ -13,20 +13,19 @@
   display: flex;
   width: 100%;
   height: 25vh;
-  overflow: hidden; /* faz a imagem não aumentar a altura se o width for aumentado */
   position: relative;
 }
 
 .img-header-1 {
-  flex: 1; /* Ocupa todo o espaço disponível no contêiner .header */
+  flex: 1;
 }
 
 .img-header-logo {
   width: 15%;
   height: 10vh;
   position: absolute;
-  top: 30%; /* Ajuste a posição vertical da logo */
-  left: 8%; /* Ajuste a posição horizontal da logo */
+  top: 30%;
+  left: 8%;
 }
 
 .img-header-bolinhas {
@@ -90,85 +89,22 @@
 /* Estilos para telas menores (dispositivos móveis) */
 @media screen and (max-width: 768px) {
   .header-global {
-    max-width: 100%;
-    height: 12.5vh;
-    display: flex; 
-    flex-direction: row; 
-    justify-content: center; 
-    align-items: center;
-    padding: 1%; 
-    margin: 1% 6%;
-    position: relative;
+    height: 12.5vh; /* Reduzindo a altura para melhorar a aparência em dispositivos móveis */
   }
 
-  .header {
-    display: flex;
-    width: 100%;
-    height: 25vh;
-    overflow: hidden; /* faz a imagem não aumentar a altura se o width for aumentado */
-    position: relative;
+  .img-header-logo,
+  .img-header-bolinhas,
+  .img-header-seta,
+  .img-header-bolona,
+  .img-header-zigzag,
+  .img-header-triangle,
+  .paragrafo-header,
+  .paragrafo-header-2,
+  .img-header-mulher {
+    position: relative; /* Mudando para position: relative para que os elementos sigam o fluxo do documento em dispositivos móveis */
+    width: 100%; /* Ajustando a largura para ocupar a tela inteira em dispositivos móveis */
+    height: auto; /* Permitindo que a altura seja ajustada automaticamente */
+    text-align: center; /* Centralizando os elementos em dispositivos móveis */
+    margin: 10px auto; /* Centralizando e adicionando espaço entre os elementos em dispositivos móveis */
   }
-
-  .img-header-logo{
-    width: 15%;
-    height: 10vh;
-    position: relative;
-    top: 30%; /* Ajuste a posição vertical da logo */
-    left: 8%; /* Ajuste a posição horizontal da logo */
-  }
-  .img-header-bolinhas{
-    width: 4%;
-    position: relative;
-    top: 70%;
-    left: 35%;
-  }
-  .img-header-seta{
-    width: 6%;
-    position: relative;
-    top: 20%;
-    left: 40%;
-  }
-  
-  .img-header-bolona{
-    width: 20%;
-    position: relative;
-    top: 12%;
-    left: -6%;
-  }
-  .img-header-zigzag{
-    width: 8%;
-    position: relative;
-    top: 87%;
-    left: 82%;
-  }
-  .img-header-triangle{
-    width: 2%;
-    position: relative;
-    top: 7%;
-    left: 90%;
-  }
-  .paragrafo-header{
-    max-width: 10%;
-    position: relative;
-    top: 7%;
-    left: 81%;
-    color: white;
-
-  }
-  .paragrafo-header-2 {
-    max-width: 10%;
-    position: relative;
-    top: 61%;
-    left: 83%;
-    color: white;
-  }
-
-  .img-header-mulher{
-    width: 13%;
-    position: relative;
-    top: 11%;
-    left: 55%;
-  }
-
-
 }
