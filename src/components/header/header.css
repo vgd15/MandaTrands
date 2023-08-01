@@ -92,6 +92,10 @@
     height: auto; /* Permite que a altura seja ajustada automaticamente */
   }
 
+  .header {
+    height: auto; /* Permite que a altura seja ajustada automaticamente em telas menores */
+  }
+
   .img-header-logo,
   .img-header-bolinhas,
   .img-header-seta,
@@ -101,7 +105,7 @@
   .img-header-triangle,
   .paragrafo-header,
   .paragrafo-header-2 {
-    position: static; /* Remove o posicionamento absoluto em telas menores */
+    position: relative; /* Remove o posicionamento absoluto em telas menores */
     width: 100%; /* Ocupa a largura total do cabeçalho em telas menores */
     height: auto; /* Permite que a altura seja ajustada automaticamente */
     text-align: center; /* Centraliza os elementos em telas menores */
