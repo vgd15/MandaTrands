@@ -23,9 +23,9 @@ function Header() {
                 <img className="img-header-zigzag" src ={zigzag} alt=""/>
                 <img className="img-header-triangle" src ={triangle} alt=""/>
                 
-                <p className="paragrafo-header"> NRF 2023 <br/> Kobe Bryant e <br/> WhatsApp Payment </p>
+                <p className="paragrafo-header"> NRF 2023 <br/> Kobe Bryant e <br/> WhatsApp Payment</p>
 
-                <p className="paragrafo-header-2"> Edição 06 </p>
+                <p className="paragrafo-header-2"> Edição 06 01 </p>
 
             </div>
 

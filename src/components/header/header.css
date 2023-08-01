@@ -1,87 +1,112 @@
 .header-global {
-    max-width: 100%;
-    height: 25vh;
-    display: flex; 
-    flex-direction: row; 
-    justify-content: center; 
-    align-items: center;
-    padding: 1%; 
-    margin: 1% 6%;
-  }
-  
-  .header {
-    display: flex;
-    width: 100%;
-    height: 25vh;
-    overflow: hidden; /* faz a imagem não aumentar a altura se o width for aumentado */
-    position: relative;
-  }
-  
-  .img-header-1 {
-    flex: 1; /* Ocupa todo o espaço disponível no contêiner .header */
-  }
-  
-  .img-header-logo {
-    width: 15%;
-    height: 10vh;
-    position: absolute;
-    top: 30%; /* Ajuste a posição vertical da logo */
-    left: 8%; /* Ajuste a posição horizontal da logo */
+  max-width: 100%;
+  height: 25vh;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center;
+  padding: 1%; 
+  margin: 1% 6%;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 25vh;
+  overflow: hidden; /* faz a imagem não aumentar a altura se o width for aumentado */
+  position: relative;
+}
+
+.img-header-1 {
+  flex: 1; /* Ocupa todo o espaço disponível no contêiner .header */
+}
+
+.img-header-logo {
+  width: 15%;
+  height: 10vh;
+  position: absolute;
+  top: 30%; /* Ajuste a posição vertical da logo */
+  left: 8%; /* Ajuste a posição horizontal da logo */
+}
+
+.img-header-bolinhas {
+  width: 4%;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+}
+
+.img-header-seta {
+  width: 6%;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+
+.img-header-mulher {
+  width: 13%;
+  position: absolute;
+  top: 11%;
+  left: 55%;
+}
+
+.img-header-bolona {
+  width: 20%;
+  position: absolute;
+  top: 12%;
+  left: -6%;
+}
+
+.img-header-zigzag {
+  width: 8%;
+  position: absolute;
+  top: 87%;
+  left: 82%;
+}
+
+.img-header-triangle {
+  width: 2%;
+  position: absolute;
+  top: 7%;
+  left: 90%;
+}
+
+.paragrafo-header {
+  max-width: 10%;
+  position: absolute;
+  top: 7%;
+  left: 81%;
+  color: white;
+}
+
+.paragrafo-header-2 {
+  max-width: 10%;
+  position: absolute;
+  top: 61%;
+  left: 83%;
+  color: white;
+}
+
+/* Estilos para telas menores (dispositivos móveis) */
+@media screen and (max-width: 768px) {
+  .header-global {
+    flex-direction: column; /* Coloca os elementos em uma coluna em telas menores */
+    height: 25vh; /* Permite que a altura seja ajustada automaticamente */
   }
 
-  .img-header-bolinhas{
-    width: 4%;
-    position: absolute;
-    top: 70%;
-    left: 35%;
-
+  .img-header-logo,
+  .img-header-bolinhas,
+  .img-header-seta,
+  .img-header-mulher,
+  .img-header-bolona,
+  .img-header-zigzag,
+  .img-header-triangle,
+  .paragrafo-header,
+  .paragrafo-header-2 {
+    position: relative; /* Ajusta o posicionamento para o fluxo do documento em telas menores */
+    width: 100%; /* Ocupa a largura total do cabeçalho em telas menores */
+    height: 25vh; /* Permite que a altura seja ajustada automaticamente */
+    text-align: center; /* Centraliza os elementos em telas menores */
+    margin: 1%; /* Centraliza e adiciona espaço entre os elementos em telas menores */
   }
-
-  .img-header-seta{
-    width: 6%;
-    position: absolute;
-    top: 20%;
-    left: 40%;
-  }  
-
-  .img-header-mulher{
-    width: 13%;
-    position: absolute;
-    top: 11%;
-    left: 55%;
-  }
-
-  .img-header-bolona{
-    width: 20%;
-    position: absolute;
-    top: 12%;
-    left: -6%;
-  }
-
-  .img-header-zigzag{
-    width: 8%;
-    position: absolute;
-    top: 85%;
-    left: 83%;
-  }
-
-  .img-header-triangle{
-    width: 2%;
-    position: absolute;
-    top: 7%;
-    left: 90%;
-  }
-
-  .paragrafo-header{
-    position: absolute;
-    top: 10%;
-    left: 81%;
-    color: white;
-  }
-
-  .paragrafo-header-2{
-    position: absolute;
-    top: 55%;
-    left: 84%;
-    color: white;
-  }
+}
