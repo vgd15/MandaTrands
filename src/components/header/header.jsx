@@ -26,10 +26,12 @@ function Header() {
                 <p className="paragrafo-header"> NRF 2023 <br/> Kobe Bryant e <br/> WhatsApp Payment</p>
 
                 <p className="paragrafo-header-2"> Edição 06 15 </p>
+                
+                <img className="img-header-mulher" src ={mulher} alt=""/>
 
             </div>
 
-               <img className="img-header-mulher" src ={mulher} alt=""/>
+              
 
         </div>
     )
