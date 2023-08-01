@@ -1,22 +1,20 @@
 .header-global {
-  max-width: auto;
-  max-height: 15vh;
+  max-width: 100%;
   display: flex; 
   flex-direction: row; 
   justify-content: center; 
   align-items: center;
-  padding: 1%; 
-  margin: 6% 6%;
+  margin: 7% 6%;
 }
 
-.header {
-  position: relative;
+.header{
+  max-width: 100%;
+  position: absolute;
   display: flex;
-  width: 100%;
 }
 
 .img-header-1 {
-  width: 100%;
+  width: 180vh;
   height: 25vh;
   
 }
