@@ -103,8 +103,8 @@
   .img-header-mulher {
     position: relative; /* Mudando para position: relative para que os elementos sigam o fluxo do documento em dispositivos móveis */
     width: 100%; /* Ajustando a largura para ocupar a tela inteira em dispositivos móveis */
-    height: auto; /* Permitindo que a altura seja ajustada automaticamente */
+    height: 25vh; /* Permitindo que a altura seja ajustada automaticamente */
     text-align: center; /* Centralizando os elementos em dispositivos móveis */
-    margin: 10px auto; /* Centralizando e adicionando espaço entre os elementos em dispositivos móveis */
+    margin: 1%; /* Centralizando e adicionando espaço entre os elementos em dispositivos móveis */
   }
 }
