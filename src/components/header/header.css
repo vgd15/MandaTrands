@@ -1,3 +1,4 @@
+/* Estilos para telas maiores (dispositivos desktop) */
 .header-global {
   max-width: 100%;
   height: 25vh;
@@ -112,5 +113,50 @@
     margin: 10px auto; /* Centraliza e adiciona espaço entre os elementos em telas menores */
     left: unset; /* Remove o posicionamento horizontal absoluto */
     top: unset; /* Remove o posicionamento vertical absoluto */
+  }
+
+  .img-header-logo {
+    top: 10%; /* Ajuste a posição vertical da logo em telas menores */
+    left: 0; /* Ajuste a posição horizontal da logo em telas menores */
+  }
+
+  .img-header-bolinhas {
+    top: 40%; /* Ajuste a posição vertical das bolinhas em telas menores */
+    left: 0; /* Ajuste a posição horizontal das bolinhas em telas menores */
+  }
+
+  .img-header-seta {
+    top: 70%; /* Ajuste a posição vertical da seta em telas menores */
+    left: 0; /* Ajuste a posição horizontal da seta em telas menores */
+  }
+
+  .img-header-mulher {
+    top: 100%; /* Ajuste a posição vertical da imagem mulher em telas menores */
+    left: 0; /* Ajuste a posição horizontal da imagem mulher em telas menores */
+  }
+
+  .img-header-bolona {
+    top: 130%; /* Ajuste a posição vertical da bolona em telas menores */
+    left: 0; /* Ajuste a posição horizontal da bolona em telas menores */
+  }
+
+  .img-header-zigzag {
+    top: 160%; /* Ajuste a posição vertical do zigzag em telas menores */
+    left: 0; /* Ajuste a posição horizontal do zigzag em telas menores */
+  }
+
+  .img-header-triangle {
+    top: 190%; /* Ajuste a posição vertical do triângulo em telas menores */
+    left: 0; /* Ajuste a posição horizontal do triângulo em telas menores */
+  }
+
+  .paragrafo-header {
+    top: 220%; /* Ajuste a posição vertical do primeiro parágrafo em telas menores */
+    left: 0; /* Ajuste a posição horizontal do primeiro parágrafo em telas menores */
+  }
+
+  .paragrafo-header-2 {
+    top: 250%; /* Ajuste a posição vertical do segundo parágrafo em telas menores */
+    left: 0; /* Ajuste a posição horizontal do segundo parágrafo em telas menores */
   }
 }
