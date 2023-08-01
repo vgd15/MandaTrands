@@ -43,7 +43,7 @@
 }
 
 .img-header-mulher {
-  width: 13%;
+  max-width: 13%;
   position: absolute;
   top:40%;
   left:60%
