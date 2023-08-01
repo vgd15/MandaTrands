@@ -1,12 +1,12 @@
 .header-global {
   max-width: 100%;
-  max-height: 25vh;
+  max-height: 10vh;
   display: flex; 
   flex-direction: row; 
   justify-content: center; 
   align-items: center;
   padding: 1%; 
-  margin: 1% 6%;
+  margin: 6% 6%;
 }
 
 .header {
