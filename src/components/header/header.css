@@ -1,11 +1,11 @@
 .header-global {
   max-width: 100%;
   height: 25vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
   align-items: center;
-  padding: 1%;
+  padding: 1%; 
   margin: 1% 6%;
 }
 
@@ -13,19 +13,20 @@
   display: flex;
   width: 100%;
   height: 25vh;
+  overflow: hidden; /* faz a imagem não aumentar a altura se o width for aumentado */
   position: relative;
 }
 
 .img-header-1 {
-  flex: 1;
+  flex: 1; /* Ocupa todo o espaço disponível no contêiner .header */
 }
 
 .img-header-logo {
   width: 15%;
   height: 10vh;
   position: absolute;
-  top: 30%;
-  left: 8%;
+  top: 30%; /* Ajuste a posição vertical da logo */
+  left: 8%; /* Ajuste a posição horizontal da logo */
 }
 
 .img-header-bolinhas {
@@ -59,8 +60,8 @@
 .img-header-zigzag {
   width: 8%;
   position: absolute;
-  top: 87%;
-  left: 82%;
+  top: 85%;
+  left: 83%;
 }
 
 .img-header-triangle {
@@ -71,40 +72,39 @@
 }
 
 .paragrafo-header {
-  max-width: 10%;
   position: absolute;
-  top: 7%;
+  top: 10%;
   left: 81%;
   color: white;
 }
 
 .paragrafo-header-2 {
-  max-width: 10%;
   position: absolute;
-  top: 61%;
-  left: 83%;
+  top: 55%;
+  left: 84%;
   color: white;
 }
 
 /* Estilos para telas menores (dispositivos móveis) */
 @media screen and (max-width: 768px) {
   .header-global {
-    height: 12.5vh; /* Reduzindo a altura para melhorar a aparência em dispositivos móveis */
+    flex-direction: column; /* Coloca os elementos em uma coluna em telas menores */
+    height: auto; /* Permite que a altura seja ajustada automaticamente */
   }
 
   .img-header-logo,
   .img-header-bolinhas,
   .img-header-seta,
+  .img-header-mulher,
   .img-header-bolona,
   .img-header-zigzag,
   .img-header-triangle,
   .paragrafo-header,
-  .paragrafo-header-2,
-  .img-header-mulher {
-    position: relative; /* Mudando para position: relative para que os elementos sigam o fluxo do documento em dispositivos móveis */
-    width: 100%; /* Ajustando a largura para ocupar a tela inteira em dispositivos móveis */
-    height: 25vh; /* Permitindo que a altura seja ajustada automaticamente */
-    text-align: center; /* Centralizando os elementos em dispositivos móveis */
-    margin: 1%; /* Centralizando e adicionando espaço entre os elementos em dispositivos móveis */
+  .paragrafo-header-2 {
+    position: static; /* Remove o posicionamento absoluto em telas menores */
+    width: 100%; /* Ocupa a largura total do cabeçalho em telas menores */
+    height: auto; /* Permite que a altura seja ajustada automaticamente */
+    text-align: center; /* Centraliza os elementos em telas menores */
+    margin: 10px auto; /* Centraliza e adiciona espaço entre os elementos em telas menores */
   }
 }
