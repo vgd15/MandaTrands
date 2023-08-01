@@ -1,7 +1,7 @@
 /* Estilos para telas maiores (dispositivos desktop) */
 .header-global {
   max-width: 100%;
-  height: 25vh;
+  max-height: 25vh;
   display: flex; 
   flex-direction: row; 
   justify-content: center; 
@@ -12,8 +12,8 @@
 
 .header {
   display: flex;
-  width: 100%;
-  height: 25vh;
+  max-width: 100%;
+  max-height: 25vh;
   overflow: hidden; /* faz a imagem não aumentar a altura se o width for aumentado */
   position: relative;
 }
@@ -23,50 +23,50 @@
 }
 
 .img-header-logo {
-  width: 15%;
-  height: 10vh;
+  max-width: 15%;
+  max-height: 10vh;
   position: absolute;
   top: 30%; /* Ajuste a posição vertical da logo */
   left: 8%; /* Ajuste a posição horizontal da logo */
 }
 
 .img-header-bolinhas {
-  width: 4%;
+  max-width: 4%;
   position: absolute;
   top: 70%;
   left: 35%;
 }
 
 .img-header-seta {
-  width: 6%;
+  max-width: 6%;
   position: absolute;
   top: 20%;
   left: 40%;
 }
 
 .img-header-mulher {
-  width: 13%;
+  max-width: 13%;
   position: absolute;
   top: 11%;
   left: 55%;
 }
 
 .img-header-bolona {
-  width: 20%;
+  max-width: 20%;
   position: absolute;
   top: 12%;
   left: -6%;
 }
 
 .img-header-zigzag {
-  width: 8%;
+  max-width: 8%;
   position: absolute;
   top: 85%;
   left: 83%;
 }
 
 .img-header-triangle {
-  width: 2%;
+  max-width: 2%;
   position: absolute;
   top: 7%;
   left: 90%;
@@ -86,11 +86,5 @@
   color: white;
 }
 
-@media screen and (max-width: 768px) {
-  .header-global {
-    position: relative;
-    max-width: 100%;
-    height: 25vh; /* Permite que a altura seja ajustada automaticamente */
-  }
-}
+
 
