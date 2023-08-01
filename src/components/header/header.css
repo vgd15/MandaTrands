@@ -98,6 +98,7 @@
     align-items: center;
     padding: 1%; 
     margin: 1% 6%;
+    position: relative;
   }
 
   .header {
@@ -111,44 +112,44 @@
   .img-header-logo{
     width: 15%;
     height: 10vh;
-    position: absolute;
+    position: relative;
     top: 30%; /* Ajuste a posição vertical da logo */
     left: 8%; /* Ajuste a posição horizontal da logo */
   }
   .img-header-bolinhas{
     width: 4%;
-    position: absolute;
+    position: relative;
     top: 70%;
     left: 35%;
   }
   .img-header-seta{
     width: 6%;
-    position: absolute;
+    position: relative;
     top: 20%;
     left: 40%;
   }
   
   .img-header-bolona{
     width: 20%;
-    position: absolute;
+    position: relative;
     top: 12%;
     left: -6%;
   }
   .img-header-zigzag{
     width: 8%;
-    position: absolute;
+    position: relative;
     top: 87%;
     left: 82%;
   }
   .img-header-triangle{
     width: 2%;
-    position: absolute;
+    position: relative;
     top: 7%;
     left: 90%;
   }
   .paragrafo-header{
     max-width: 10%;
-    position: absolute;
+    position: relative;
     top: 7%;
     left: 81%;
     color: white;
@@ -156,7 +157,7 @@
   }
   .paragrafo-header-2 {
     max-width: 10%;
-    position: absolute;
+    position: relative;
     top: 61%;
     left: 83%;
     color: white;
@@ -164,7 +165,7 @@
 
   .img-header-mulher{
     width: 13%;
-    position: absolute;
+    position: relative;
     top: 11%;
     left: 55%;
   }
