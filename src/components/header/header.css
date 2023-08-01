@@ -23,50 +23,50 @@
 }
 
 .img-header-logo {
-  max-width: 15%;
-  max-height: 10vh;
+  width: 15%;
+  height: 10vh;
   position: absolute;
   top: 30%; /* Ajuste a posição vertical da logo */
   left: 8%; /* Ajuste a posição horizontal da logo */
 }
 
 .img-header-bolinhas {
-  max-width: 4%;
+  width: 4%;
   position: absolute;
   top: 70%;
   left: 35%;
 }
 
 .img-header-seta {
-  max-width: 6%;
+  width: 6%;
   position: absolute;
   top: 20%;
   left: 40%;
 }
 
 .img-header-mulher {
-  max-width: 13%;
+  width: 13%;
   position: absolute;
   top: 11%;
   left: 55%;
 }
 
 .img-header-bolona {
-  max-width: 20%;
+  width: 20%;
   position: absolute;
   top: 12%;
   left: -6%;
 }
 
 .img-header-zigzag {
-  max-width: 8%;
+  width: 8%;
   position: absolute;
   top: 85%;
   left: 83%;
 }
 
 .img-header-triangle {
-  max-width: 2%;
+  width: 2%;
   position: absolute;
   top: 7%;
   left: 90%;
