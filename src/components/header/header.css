@@ -110,5 +110,7 @@
     height: auto; /* Permite que a altura seja ajustada automaticamente */
     text-align: center; /* Centraliza os elementos em telas menores */
     margin: 10px auto; /* Centraliza e adiciona espaço entre os elementos em telas menores */
+    left: unset; /* Remove o posicionamento horizontal absoluto */
+    top: unset; /* Remove o posicionamento vertical absoluto */
   }
 }
