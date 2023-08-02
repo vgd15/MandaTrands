@@ -1,22 +1,18 @@
 .header-global {
   max-width: 100%;
-  display: flex; 
-  flex-direction: row; 
-  justify-content: center; 
-  align-items: center;
-  margin: 7% 6%;
+  margin: 1% 6%;
 }
 
-.header{
+.header {
   max-width: 100%;
-  position: absolute;
+  max-height: 25vh;
+  position: relative; 
   display: flex;
 }
 
 .img-header-1 {
-  width: 100vh;
-  height: 15vh;
-  
+  flex: 1;
+  max-width: 100%;
 }
 
 .img-header-logo {
@@ -24,7 +20,6 @@
   position: absolute;
   top: 30%;
   left: 10%;
-  
 }
 
 .img-header-bolinhas {
@@ -42,10 +37,10 @@
 }
 
 .img-header-mulher {
-  max-width: 13%;
+  max-width: 15%;
   position: absolute;
-  top:40%;
-  left:60%
+  top: 39%;
+  left: 55%;
 }
 
 .img-header-bolona {
@@ -56,10 +51,10 @@
 }
 
 .img-header-zigzag {
-  width: 8%;
+  width: 10%;
   position: absolute;
-  top: 85%;
-  left: 84%;
+  top: 86%;
+  left: 80%;
 }
 
 .img-header-triangle {
@@ -70,19 +65,82 @@
 }
 
 .paragrafo-header {
-  max-width: 15%;
-  font-size: 10px;
+  text-align: right;
   position: absolute;
-  top: 15%;
-  left: 81%;
+  top: 11%;
+  left: 77%;
   color: white;
 }
 
 .paragrafo-header-2 {
-  max-width: 15%;
-  font-size: 10px;
+  text-align: right;
   position: absolute;
   top: 57%;
-  left: 84%;
+  left: 83.5%;
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+  .header-global {
+    margin-top: 3%;
+  }
+
+
+  .img-header-logo {
+    width: 25%;
+    top: 30%;
+      
+  }
+
+  .img-header-bolinhas {
+    width: 5%;
+    top:65px;
+    left: 40%;
+     
+  }
+
+  .img-header-seta {
+    width: 10%;
+  }
+
+  .img-header-mulher {
+   max-width: 20%;
+  }
+
+  .img-header-bolona {
+   width: 30%;
+  }
+
+  .img-header-zigzag {
+      width: 10%;
+      position: absolute;
+      top: 87%;
+      left: 85%;
+  }
+
+  .img-header-triangle {
+  position: absolute;
+  top: 20%;
+  left:96%;
+  }
+
+  .paragrafo-header {
+      text-align: right;
+      font-size: 7px;
+      position: absolute;
+      top: 21%;
+      left: 79%;
+      color: white;
+    
+  }
+
+  .paragrafo-header-2 {
+      font-size: 8px;
+      position: absolute;
+      top: 59%;
+      left: 86%;
+      color: white;
+    }
+  
 }
