@@ -1,6 +1,6 @@
 .header-global {
   max-width: 100%;
-  margin: 1% 1%;
+  margin:  1%;
 }
 
 .header {
@@ -25,26 +25,26 @@
 .img-header-bolinhas {
   width: 4%;
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 35%;
 }
 
 .img-header-seta {
-  width: 6%;
+  width: 7%;
   position: absolute;
   top: 25%;
-  left: 40%;
+  left: 45%;
 }
 
 .img-header-mulher {
   max-width: 15%;
   position: absolute;
-  top: 39%;
-  left: 55%;
+  top: 43%;
+  left: 58%;
 }
 
 .img-header-bolona {
-  width: 20%;
+  width: 25%;
   position: absolute;
   top: 12%;
   left: -6%;
@@ -54,7 +54,7 @@
   width: 10%;
   position: absolute;
   top: 86%;
-  left: 80%;
+  left: 78.5%;
 }
 
 .img-header-triangle {
@@ -76,7 +76,7 @@
   text-align: right;
   position: absolute;
   top: 57%;
-  left: 83.5%;
+  left: 83%;
   color: white;
 }
 
@@ -130,7 +130,6 @@
   .paragrafo-header {
       text-align: right;
       font-size: 7px;
-      position: absolute;
       top: 21%;
       left: 73%;
       color: white;
@@ -139,7 +138,6 @@
 
   .paragrafo-header-2 {
       font-size: 8px;
-      position: absolute;
       top: 59%;
       left: 80%;
       color: white;
