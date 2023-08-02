@@ -107,12 +107,12 @@
   }
 
   .img-header-mulher {
-   max-width: 20%;
-   left: 49%;
+     max-width: 20%;
+     left: 49%;
   }
 
   .img-header-bolona {
-   width: 30%;
+      width: 30%;
   }
 
   .img-header-zigzag {
@@ -123,9 +123,8 @@
   }
 
   .img-header-triangle {
-  position: absolute;
-  top: 18%;
-  left:88%;
+      top: 18%;
+      left:89%;
   }
 
   .paragrafo-header {
