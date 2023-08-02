@@ -61,7 +61,7 @@
   width: 2%;
   position: absolute;
   top: 7%;
-  left: 90%;
+  left: 89%;
 }
 
 .paragrafo-header {
@@ -101,11 +101,14 @@
   }
 
   .img-header-seta {
-    width: 10%;
+    width: 9%;
+    top:15%;
+    left:47%;
   }
 
   .img-header-mulher {
    max-width: 20%;
+   left: 49%;
   }
 
   .img-header-bolona {
@@ -116,13 +119,13 @@
       width: 10%;
       position: absolute;
       top: 87%;
-      left: 85%;
+      left: 79%;
   }
 
   .img-header-triangle {
   position: absolute;
-  top: 20%;
-  left:96%;
+  top: 18%;
+  left:88%;
   }
 
   .paragrafo-header {
@@ -130,7 +133,7 @@
       font-size: 7px;
       position: absolute;
       top: 21%;
-      left: 79%;
+      left: 73%;
       color: white;
     
   }
@@ -139,7 +142,7 @@
       font-size: 8px;
       position: absolute;
       top: 59%;
-      left: 86%;
+      left: 80%;
       color: white;
     }
   
